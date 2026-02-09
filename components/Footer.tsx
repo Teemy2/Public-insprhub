@@ -27,7 +27,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-4">
           <a
-            href="#"
+            href="https://x.com/InsprLtd"
             className="transition-colors hover:text-gray-400"
             aria-label="Twitter"
           >
@@ -41,7 +41,7 @@ export default function Footer() {
             <LinkedinLogoIcon className="w-5 h-5" weight="fill" />
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/insprhub/"
             className="transition-colors hover:text-gray-400"
             aria-label="Instagram"
           >

@@ -1,12 +1,19 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Lexend } from 'next/font/google';
+import "./globals.css";
+import type { Metadata } from "next";
+import { Lexend } from "next/font/google";
 
-const lexend = Lexend({ subsets: ['latin'] });
+const lexend = Lexend({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'inspr - Your Gateway to Global Remote Opportunities',
-  description: 'Empowering tertiary students across Africa with access to flexible remote jobs that fit your schedule, and build your career.',
+  title: "inspr - Your Gateway to Global Remote Opportunities",
+  description:
+    "Empowering tertiary students across Africa with access to flexible remote jobs that fit your schedule, and build your career.",
+  icons: {
+    icon: "/logomark-white.png",
+  },
+  openGraph: {
+    images: "/image.png",
+  },
 };
 
 export default function RootLayout({

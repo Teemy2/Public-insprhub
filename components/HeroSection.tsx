@@ -135,16 +135,16 @@ export default function HeroSection() {
                 <div className="flex -space-x-2 pl-2">
                   <div className="relative w-8 h-8 rounded-full border-2 border-white overflow-hidden">
                     <Image
-                      src="/pm.jpg"
-                      alt="Product Manager"
+                      src="/join-1.jpg"
+                      alt="Student"
                       fill
                       className="object-cover"
                     />
                   </div>
                   <div className="relative w-8 h-8 rounded-full border-2 border-white overflow-hidden">
                     <Image
-                      src="/se.jpg"
-                      alt="Software Engineer"
+                      src="/join-2.jpg"
+                      alt="Business"
                       fill
                       className="object-cover"
                     />

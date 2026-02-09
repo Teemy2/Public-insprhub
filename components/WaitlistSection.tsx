@@ -26,7 +26,7 @@ export default function WaitlistSection() {
 
     try {
       const response = await fetch(
-        "https://insprhub-backend.onrender.com/waitlist/api/waitlist",
+        "https://insprhub-backend.onrender.com/waitlist",
         {
           method: "POST",
           headers: {
