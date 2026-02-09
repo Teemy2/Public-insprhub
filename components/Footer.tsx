@@ -5,6 +5,7 @@ import {
   XLogoIcon,
   LinkedinLogoIcon,
   InstagramLogoIcon,
+  EnvelopeSimpleIcon,
 } from "@phosphor-icons/react";
 
 export default function Footer() {
@@ -34,7 +35,7 @@ export default function Footer() {
             <XLogoIcon className="w-5 h-5" weight="fill" />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/company/insprhub/"
             className="transition-colors hover:text-gray-400"
             aria-label="LinkedIn"
           >
@@ -46,6 +47,13 @@ export default function Footer() {
             aria-label="Instagram"
           >
             <InstagramLogoIcon className="w-5 h-5" weight="fill" />
+          </a>
+          <a
+            href="mailto:contact@insprhub.com"
+            className="transition-colors hover:text-gray-400"
+            aria-label="Email"
+          >
+            <EnvelopeSimpleIcon className="w-5 h-5" weight="fill" />
           </a>
         </div>
       </div>

@@ -19,7 +19,7 @@ const tags = [
   {
     label: "Internship",
     color: "bg-white text-emerald-600 border-emerald-100",
-    position: "top-[25%] -left-[5%]",
+    position: "top-[15%] md:top-[25%] -left-[5%]",
     rotate: "-rotate-3",
     animationDelay: "4s",
   },
@@ -43,11 +43,12 @@ const tags = [
     position: "bottom-[28%] right-[5%]",
     rotate: "-rotate-6",
     animationDelay: "5s",
+    className: "hidden md:flex",
   },
   {
     label: "$20/hr",
     color: "bg-white text-dark-green border-green-100",
-    position: "top-[50%] left-[45%]",
+    position: "top-[40%] md:top-[50%] left-[45%]",
     rotate: "rotate-12",
     animationDelay: "2.5s",
   },
@@ -64,12 +65,13 @@ export const FloatingJobTags = () => {
           <div
             key={index}
             className={cn(
-              "absolute inline-flex items-center justify-center px-4 py-2",
-              "rounded-full font-semibold text-sm border shadow-sm",
+              "absolute inline-flex items-center justify-center px-3 py-1.5 md:px-4 md:py-2",
+              "rounded-full font-semibold text-xs md:text-sm border shadow-sm",
               "bg-white/95 backdrop-blur-sm",
               tag.color,
               tag.position,
               tag.rotate,
+              tag.className,
             )}
             style={{
               animation: `float 6s ease-in-out infinite`,

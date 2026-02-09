@@ -62,8 +62,10 @@ export default function HeroSection() {
                   />
 
                   <div className="relative z-20 text-white">
-                    <p className="text-lg font-bold mb-1">Software Engineer</p>
-                    <div className="flex items-center gap-2 text-gray-300 text-sm">
+                    <p className="text-sm md:text-lg font-bold mb-1">
+                      Software Engineer
+                    </p>
+                    <div className="flex items-center gap-2 text-gray-300 text-xs md:text-sm">
                       <div className="w-1.5 h-1.5 rounded-full bg-green-500" />
                       Ilorin, Nigeria
                     </div>
@@ -120,8 +122,10 @@ export default function HeroSection() {
                   />
 
                   <div className="relative z-20 text-white">
-                    <p className="text-lg font-bold mb-1">Product Manager</p>
-                    <div className="flex items-center gap-2 text-gray-300 text-sm">
+                    <p className="text-sm md:text-lg font-bold mb-1">
+                      Product Manager
+                    </p>
+                    <div className="flex items-center gap-2 text-gray-300 text-xs md:text-sm">
                       <div className="w-1.5 h-1.5 rounded-full bg-green-500" />
                       Ife, Nigeria
                     </div>
