@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import { Button } from '@/components/ui/button';
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function Header() {
   return (
@@ -16,16 +16,22 @@ export default function Header() {
         </div>
 
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#" className="text-black hover:text-dark-green transition-colors text-sm">
+          <a
+            href="#"
+            className="text-black hover:text-dark-green transition-colors text-sm"
+          >
             Become a partner
           </a>
-          <a href="#" className="text-black hover:text-dark-green transition-colors text-sm">
+          <a
+            href="#about"
+            className="text-black hover:text-dark-green transition-colors text-sm"
+          >
             About
           </a>
           <a href="#waitlist">
             <Button className="bg-black hover:bg-black/90 text-white">
-            Join the waitlist
-          </Button>
+              Join the waitlist
+            </Button>
           </a>
         </nav>
       </div>
